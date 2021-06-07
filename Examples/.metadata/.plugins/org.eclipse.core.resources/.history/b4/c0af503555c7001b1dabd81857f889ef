@@ -1,0 +1,32 @@
+package com.cognizant;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class EmployeeServiceImpl implements EmployeeService {
+
+	@Autowired
+	private EmployeeRepository employeeDao;
+	
+	@Override
+	public Employee storeEmployee(Employee employee) {
+		
+		return employeeDao.save(employee);
+	}
+
+	@Override
+	public List<Employee> fetchAllEmployees() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee fetchEmployee(int id) throws EmployeeNotFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

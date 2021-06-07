@@ -1,0 +1,25 @@
+package com.cognizant;
+
+import java.util.List;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	@Override
+	public Employee storeEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Employee> fetchAllEmployees() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee fetchEmployee(int id) throws EmployeeNotFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

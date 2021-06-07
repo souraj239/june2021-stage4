@@ -1,0 +1,8 @@
+package com.cognizant;
+
+import java.util.List;
+
+public interface EmployeeService {
+	public Employee storeEmployee(Employee employee);
+	public List<Employee> fetchAllEmployees();
+}

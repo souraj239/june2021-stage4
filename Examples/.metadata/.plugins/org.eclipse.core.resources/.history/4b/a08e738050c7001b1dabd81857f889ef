@@ -1,0 +1,5 @@
+package com.cognizant;
+
+public interface EmployeeService {
+	public Employee storeEmployee(Employee employee);
+}
